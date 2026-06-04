@@ -1,47 +1,44 @@
 automaton_simulator: \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/Scrt1.o \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/crti.o \
+  /nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o \
   CMakeFiles/automaton_simulator.dir/src/main.cpp.o \
   CMakeFiles/automaton_simulator.dir/src/LambdaNfa.cpp.o \
   CMakeFiles/automaton_simulator.dir/src/Pda.cpp.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libstdc++.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libm.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libm.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libm.so \
-  /usr/lib/libm.so.6 \
-  /usr/lib/libmvec.so.1 \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so.1 \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libatomic_asneeded.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libatomic_asneeded.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libatomic_asneeded.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libatomic.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libc.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libc.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libc.so \
-  /usr/lib/libc.so.6 \
-  /usr/lib/libc_nonshared.a \
-  /usr/lib/ld-linux-x86-64.so.2 \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so.1 \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o \
-  /usr/lib/ld-linux-x86-64.so.2
+  CMakeFiles/automaton_simulator.dir/src/Cfg.cpp.o \
+  /nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libstdc++.so \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libm.so \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libm.so \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libm.so \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libm.so.6 \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libmvec.so.1 \
+  /nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so \
+  /nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so \
+  /nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so \
+  /nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so.1 \
+  /nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/libgcc.a \
+  /nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/libgcc.a \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libc.so \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libc.so \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libc.so \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libc.so.6 \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libc_nonshared.a \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/ld-linux-x86-64.so.2 \
+  /nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so \
+  /nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so \
+  /nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so \
+  /nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so.1 \
+  /nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/libgcc.a \
+  /nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/libgcc.a \
+  /nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/crtn.o \
+  /nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/ld-linux-x86-64.so.2
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/Scrt1.o:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/crti.o:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o:
+/nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o:
 
 CMakeFiles/automaton_simulator.dir/src/main.cpp.o:
 
@@ -49,64 +46,58 @@ CMakeFiles/automaton_simulator.dir/src/LambdaNfa.cpp.o:
 
 CMakeFiles/automaton_simulator.dir/src/Pda.cpp.o:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libstdc++.so:
+CMakeFiles/automaton_simulator.dir/src/Cfg.cpp.o:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libm.so:
+/nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libstdc++.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libm.so:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libm.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libm.so:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libm.so:
 
-/usr/lib/libm.so.6:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libm.so:
 
-/usr/lib/libmvec.so.1:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libm.so.6:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libmvec.so.1:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so:
+/nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so:
+/nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so.1:
+/nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a:
+/nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so.1:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a:
+/nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/libgcc.a:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libatomic_asneeded.so:
+/nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/libgcc.a:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libatomic_asneeded.so:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libc.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libatomic_asneeded.so:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libc.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libatomic.so:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libc.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libc.so:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libc.so.6:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libc.so:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/libc_nonshared.a:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libc.so:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/ld-linux-x86-64.so.2:
 
-/usr/lib/libc.so.6:
+/nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so:
 
-/usr/lib/libc_nonshared.a:
+/nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so:
 
-/usr/lib/ld-linux-x86-64.so.2:
+/nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so:
+/nix/store/chqq8mpmpyfi9kgsngya71akv5xicn03-gcc-15.2.0-lib/lib/libgcc_s.so.1:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so:
+/nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/libgcc.a:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so:
+/nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/libgcc.a:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libgcc_s.so.1:
+/nix/store/qxaq7jz61a6zkr2mq49i0zvqip2m2jj8-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/crtn.o:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o:
-
-/usr/lib/ld-linux-x86-64.so.2:
+/nix/store/57iz36553175g3178pvxjij8z5rcsd4n-glibc-2.42-61/lib/ld-linux-x86-64.so.2:

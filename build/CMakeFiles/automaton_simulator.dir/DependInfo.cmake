@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sebastian/Documents/Programing/C++_C/LFA TEMA/cpp-simulator/src/LambdaNfa.cpp" "CMakeFiles/automaton_simulator.dir/src/LambdaNfa.cpp.o" "gcc" "CMakeFiles/automaton_simulator.dir/src/LambdaNfa.cpp.o.d"
-  "/home/sebastian/Documents/Programing/C++_C/LFA TEMA/cpp-simulator/src/Pda.cpp" "CMakeFiles/automaton_simulator.dir/src/Pda.cpp.o" "gcc" "CMakeFiles/automaton_simulator.dir/src/Pda.cpp.o.d"
-  "/home/sebastian/Documents/Programing/C++_C/LFA TEMA/cpp-simulator/src/main.cpp" "CMakeFiles/automaton_simulator.dir/src/main.cpp.o" "gcc" "CMakeFiles/automaton_simulator.dir/src/main.cpp.o.d"
+  "/home/dazor/Documents/coding/rust/dfa-simulator/cpp-simulator/src/Cfg.cpp" "CMakeFiles/automaton_simulator.dir/src/Cfg.cpp.o" "gcc" "CMakeFiles/automaton_simulator.dir/src/Cfg.cpp.o.d"
+  "/home/dazor/Documents/coding/rust/dfa-simulator/cpp-simulator/src/LambdaNfa.cpp" "CMakeFiles/automaton_simulator.dir/src/LambdaNfa.cpp.o" "gcc" "CMakeFiles/automaton_simulator.dir/src/LambdaNfa.cpp.o.d"
+  "/home/dazor/Documents/coding/rust/dfa-simulator/cpp-simulator/src/Pda.cpp" "CMakeFiles/automaton_simulator.dir/src/Pda.cpp.o" "gcc" "CMakeFiles/automaton_simulator.dir/src/Pda.cpp.o.d"
+  "/home/dazor/Documents/coding/rust/dfa-simulator/cpp-simulator/src/main.cpp" "CMakeFiles/automaton_simulator.dir/src/main.cpp.o" "gcc" "CMakeFiles/automaton_simulator.dir/src/main.cpp.o.d"
   "" "automaton_simulator" "gcc" "CMakeFiles/automaton_simulator.dir/link.d"
   )
 
