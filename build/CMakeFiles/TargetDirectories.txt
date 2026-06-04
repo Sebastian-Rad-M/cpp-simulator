@@ -1,0 +1,3 @@
+/home/sebastian/Documents/Programing/C++_C/LFA TEMA/cpp-simulator/build/CMakeFiles/automaton_simulator.dir
+/home/sebastian/Documents/Programing/C++_C/LFA TEMA/cpp-simulator/build/CMakeFiles/edit_cache.dir
+/home/sebastian/Documents/Programing/C++_C/LFA TEMA/cpp-simulator/build/CMakeFiles/rebuild_cache.dir

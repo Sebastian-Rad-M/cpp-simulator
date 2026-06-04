@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/automaton_simulator.dir/link.d CMakeFiles/automaton_simulator.dir/src/main.cpp.o CMakeFiles/automaton_simulator.dir/src/LambdaNfa.cpp.o CMakeFiles/automaton_simulator.dir/src/Pda.cpp.o -o automaton_simulator
