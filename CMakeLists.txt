@@ -9,4 +9,5 @@ add_executable(automaton_simulator
     src/main.cpp
     src/LambdaNfa.cpp
     src/Pda.cpp
+    src/Cfg.cpp
 )

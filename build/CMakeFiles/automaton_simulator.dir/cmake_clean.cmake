@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/automaton_simulator.dir/link.d"
+  "CMakeFiles/automaton_simulator.dir/src/Cfg.cpp.o"
+  "CMakeFiles/automaton_simulator.dir/src/Cfg.cpp.o.d"
   "CMakeFiles/automaton_simulator.dir/src/LambdaNfa.cpp.o"
   "CMakeFiles/automaton_simulator.dir/src/LambdaNfa.cpp.o.d"
   "CMakeFiles/automaton_simulator.dir/src/Pda.cpp.o"
